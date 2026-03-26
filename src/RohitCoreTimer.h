@@ -21,7 +21,7 @@ class RohitCoreTimer {
     RohitCoreTimer();
 
     void every(unsigned long interval, TaskCallback callback);
-    void after(unsigned long delay, TaskCallback callback);
+    void after(unsigned long delayTime, TaskCallback callback);
     void update();
 
   private:
